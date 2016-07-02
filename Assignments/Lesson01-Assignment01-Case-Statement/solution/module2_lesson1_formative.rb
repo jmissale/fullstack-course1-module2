@@ -1,16 +1,16 @@
-some_var = "false"
-another_var = "nil"
+test_var = "false"
+test1_var = "nil"
 
 case 
-when some_var == "pink elephant"
-  puts "Don't think about the pink elephant!"
+when test_var == "smart"
+  puts "smarter than who!"
 
-when another_var.nil?
+when test1_var.nil?
   puts "Question mark in the method name?"
 
-when some_var == false
-  puts "Looks like this one should execute"
+when test_var == false
+  puts "false is false"
 
 else
-  puts "I guess nothing matched... But why?"
+  puts "This is really false?"
 end
